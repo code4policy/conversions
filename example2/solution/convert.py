@@ -7,8 +7,8 @@ with open('input.json') as f:
     data = json.load(f)
 
 with open('output.csv', 'w') as f:
-    writer = csv.DictWriter(f, fieldnames=['id', 'value'])
-    writer.writeheader()
+    writer = csv.writer(f)
+    writer.writerow(['id', 'value'])
 
     # converting only top level of children
     for row in data['children']:
@@ -19,4 +19,4 @@ with open('output.csv', 'w') as f:
         # remove dollar sign and comma from budget
         budget = row['data']['budget'].replace('$', '').replace(',', '')
 
-        writer.writerow({'id': id_, 'value': budget})
+        writer.writerow([id_, budget])
