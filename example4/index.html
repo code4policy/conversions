@@ -65,7 +65,7 @@ var version = {
   "d3-zoom": "1.1.0"
 };
 
-d3.csv("output.csv", function(d) {
+d3.csv("dummy.csv", function(d) {
   d.size = +d.size;
   return d;
 }, function(error, data) {
