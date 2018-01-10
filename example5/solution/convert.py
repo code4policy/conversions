@@ -17,8 +17,8 @@ for legislator in legislators:
     length = (end-start).days
     output.append({"name": name, "value": length})
 
-# sort by "value", descending, take the top 10
-output = sorted(output, key=lambda x: x['value'], reverse=True)[:10]
+# sort by "value", descending, take the top 20
+output = sorted(output, key=lambda x: x['value'], reverse=True)[:20]
 
 with open('output.json', 'w') as f:
     json.dump(output, f)
