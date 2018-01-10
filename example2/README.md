@@ -21,6 +21,5 @@
     ```
 
 Sources:
-- Data: https://obamawhitehouse.archives.gov/interactive-budget
-	- Extract Script: https://gist.github.com/AlJohri/0ff2570ecf2e3316ec7c9dead6d78ee7
-- Visualizaton: https://bl.ocks.org/mbostock/4063269
+- Data: [ObamaWhiteHouse Interactive Budget](https://obamawhitehouse.archives.gov/interactive-budget) | [Extract Script](https://gist.github.com/AlJohri/0ff2570ecf2e3316ec7c9dead6d78ee7)
+- Visualizaton: [Bubble Chart](https://bl.ocks.org/mbostock/4063269)
