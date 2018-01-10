@@ -1,4 +1,4 @@
-# example5: horizontal stacked bar
+# example5: horizontal bar chart
 
 1. Look at the original data format.
 
@@ -25,4 +25,4 @@
 Sources:
 - Data: [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators)
 	- [legislators-current.json](https://theunitedstates.io/congress-legislators/legislators-current.json)
-- Visualization: [Bar Chart](http://bl.ocks.org/juan-cb/faf62e91e3c70a99a306)
+- Visualization: [Horizontal Bar Chart](https://bl.ocks.org/hrecht/f84012ee860cb4da66331f18d588eee3)
