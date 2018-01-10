@@ -23,16 +23,12 @@ for row in filtered_rows:
     amount = float(row['AMOUNT'])
     costs_by_category[category].append(amount)
 
-# sum each group
-
-outputs = []
-for category, amounts in costs_by_category.items():
-    outputs.append({
-        "id": "flare.other." + category,
-        "value": sum(amounts)
-        })
+# sum each group and write output
 
 with open('output.csv', 'w') as f:
-    writer = csv.DictWriter(f, fieldnames=['id', 'value'])
-    writer.writeheader()
-    writer.writerows(outputs)
+    writer = csv.writer(f)
+    writer.writerow(['id', 'value'])
+
+    for category, amounts in costs_by_category.items():
+        new_row = ["flare.other." + category, sum(amounts)]
+        writer.writerow(new_row)
