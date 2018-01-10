@@ -5,7 +5,7 @@ import json
 
 with open('input1.csv') as f:
     reader = csv.DictReader(f)
-    expenditure = list(reader)
+    expenditures = list(reader)
 
 with open('input2.json') as f:
     legislators = json.load(f)
@@ -20,11 +20,11 @@ for legislator in legislators:
 # group by category AND party
 
 costs_by_category_and_party = {}
-for row in expenditure:
-    if row['BIOGUIDE_ID']:
-        category = row['CATEGORY']
-        amount = float(row['AMOUNT'])
-        bioguide_id = row['BIOGUIDE_ID']
+for expenditure in expenditures:
+    if expenditure['BIOGUIDE_ID']:
+        category = expenditure['CATEGORY']
+        amount = float(expenditure['AMOUNT'])
+        bioguide_id = expenditure['BIOGUIDE_ID']
         if bioguide_id in legislators_mapping:
             legislator = legislators_mapping[bioguide_id]
             party = legislator['terms'][-1]['party']
