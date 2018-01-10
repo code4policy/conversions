@@ -1,0 +1,510 @@
+{
+    "data": {}, 
+    "children": [
+        {
+            "data": {
+                "$area": 15, 
+                "budget": "$615,515"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Ongoing Operations, Equipment and Supplies<br /><br />Economic growth and opportunity can only be achieved if Americans are safe and secure. The budget replaces devastating sequester cuts with appropriate support for our national security operations, including our efforts to degrade and defeat ISIL, to counter Russian aggressive action against Ukraine, to confront the threat of infectious disease, and more.<br /><br /><a href='https://www.youtube.com/watch?v=cse5cCGuHmE&feature=youtu.be' target='_blank'>Learn more about the President\u2019s vision for American leadership in the world in his State of the Union Address.</a>", 
+                    "data": {
+                        "$area": 6.12, 
+                        "budget": "$250,914", 
+                        "$color": "#e58c00"
+                    }, 
+                    "children": [], 
+                    "name": "Ongoing Operations, Equipment and Supplies", 
+                    "id": "child-Ongoing Operations, Equipment and Supplies"
+                }, 
+                {
+                    "zoomdata": "Other National Defense<br /><br />Economic growth and opportunity can only be achieved if Americans are safe and secure. The budget replaces devastating sequester cuts with strong support for our national defense, including our cybersecurity efforts.<br /><br /><a href='http://obamawhitehouse.archives.gov/cybersecurity' target='_blank'>Learn more about the Administration\u2019s core principles for America\u2019s cybersecurity and what the President is doing to strengthen it.</a>", 
+                    "data": {
+                        "$area": 5.28, 
+                        "budget": "$216,476", 
+                        "$color": "#faab00"
+                    }, 
+                    "children": [], 
+                    "name": "Other National Defense", 
+                    "id": "child-Other National Defense"
+                }, 
+                {
+                    "zoomdata": "Military Personnel<br /><br />When it comes to our service members and their families, America stands united in support. The budget helps ensure that those who serve our country receive all the support and opportunities they\u2019ve earned and deserve.<br /><br /><a href='https://www.youtube.com/watch?v=cse5cCGuHmE&feature=youtu.be' target='_blank'>Learn how our military personnel are helping to shape the President\u2019s vision for American leadership in the world.</a>", 
+                    "data": {
+                        "$area": 3.61, 
+                        "budget": "$148,125", 
+                        "$color": "#ffbc1b"
+                    }, 
+                    "children": [], 
+                    "name": "Military Personnel", 
+                    "id": "child-Military Personnel"
+                }
+            ], 
+            "name": "National Defense", 
+            "id": "parent_National Defense"
+        }, 
+        {
+            "data": {
+                "$area": 26.99, 
+                "budget": "$1,107,446"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Medicare<br /><br/>The budget includes $400 billion in health savings that build on the Affordable Care Act to help maintain the slow growth in health care costs while improving health care quality for seniors. In fact, this budget extends the Medicare Hospital Insurance trust fund\u2019s solvency by 5 years.<br /><br/><a href='http://obamawhitehouse.archives.gov/blog/2014/12/03/historically-slow-growth-health-spending-continued-2013-and-data-show-underlying-slo'>Learn more about the historically low growth in health care costs that the President\u2019s budget will help maintain.</a>", 
+                    "data": {
+                        "$area": 14.37, 
+                        "budget": "$589,720", 
+                        "$color": "#690000"
+                    }, 
+                    "children": [], 
+                    "name": "Medicare", 
+                    "id": "child-Medicare"
+                }, 
+                {
+                    "zoomdata": "Medicaid and Children's Health Insurance<br /><br/>The budget supports the Affordable Care Act, which is already providing coverage for millions of Americans through the expansion of Medicaid.<br /><br/><a href='http://obamawhitehouse.archives.gov/share/medicaid-map'>See which states have expanded Medicaid under the ACA and how many people stand to benefit in your state.</a>", 
+                    "data": {
+                        "$area": 8.91, 
+                        "budget": "$365,525", 
+                        "$color": "#880000"
+                    }, 
+                    "children": [], 
+                    "name": "Medicaid and Children's Health Insurance", 
+                    "id": "child-Medicaid and Children's Health Insurance"
+                }, 
+                {
+                    "zoomdata": "Other Health Care<br /><br/>The budget supports the Affordable Care Act, which is already providing coverage for millions of Americans through the Health Insurance Marketplaces, tax credits for affordable coverage, and Medicaid expansion.<br /><br/><a href='http://obamawhitehouse.archives.gov/get-covered-2015#section-faces-of-health-care'>Learn how the ACA, which the budget supports, is helping Americans like April, Peter, and Durrain.</a>", 
+                    "data": {
+                        "$area": 2.8, 
+                        "budget": "$114,703", 
+                        "$color": "#ac0909"
+                    }, 
+                    "children": [], 
+                    "name": "Other Health Care", 
+                    "id": "child-Other Health Care"
+                }, 
+                {
+                    "zoomdata": "Health Research and Food Safety<br /><br/>Along with advanced manufacturing and agricultural climate resilience, the budget makes a significant investment in biomedical research, which includes the President\u2019s Precision Medicine initiative \u2013 an emerging medical field that delivers treatments that are unique to each patient.<br /><br/><a href='http://obamawhitehouse.archives.gov/blog/2015/01/29/precision-medicine-already-working-cure-americans-these-are-their-stories'>See how precision medicine has transformed the life of 6-year-old Emily Whitehead.</a>", 
+                    "data": {
+                        "$area": 0.91, 
+                        "budget": "$37,498", 
+                        "$color": "#d31f1f"
+                    }, 
+                    "children": [], 
+                    "name": "Health Research and Food Safety", 
+                    "id": "child-Health Research and Food Safety"
+                }
+            ], 
+            "name": "Health Care", 
+            "id": "parent_Health Care"
+        }, 
+        {
+            "data": {
+                "$area": 13.32, 
+                "budget": "$546,350"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Other Income Security<br /><br />The budget supports working families by reforming an unfair tax code to help middle-class families get ahead and ensure all families can afford the cornerstones of economic security: child care, college, health care, a home, and retirement.<br /><br /><a href='http://obamawhitehouse.archives.gov/the-press-office/2015/01/20/middle-class-economics-21st-century-helping-working-families-get-ahead'>Learn more about the President\u2019s plan to build a 21st century economy based on what works: middle-class economics.</a>", 
+                    "data": {
+                        "$area": 6.34, 
+                        "budget": "$259,959", 
+                        "$color": "#004920"
+                    }, 
+                    "children": [], 
+                    "name": "Other Income Security", 
+                    "id": "child-Other Income Security"
+                }, 
+                {
+                    "zoomdata": "Food and Nutrition Assistance<br /><br />The Budget supports the ongoing implementation of the Healthy, Hunger-Free Kids Act of 2010 with an investment of $35 million in school equipment grants, $10 million to aid in the provision of healthy meals. The Budget provides $6.6 billion to support the 8.5 million individuals expected to participate in the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC), which is critical to the health of pregnant women, new mothers, infants, and young children. The Budget also provides funding for the Administration's Healthy Food Financing Initiative to increase the availability of affordable, healthy food options in underserved communities, including $35 million in grants through the Department of the Treasury's Community Development Financial Institutions Fund, and $13 million through USDA's Healthy Food Financing Initiative authorized by the Agricultural Act of 2014.<br /><br /><a href='http://obamawhitehouse.archives.gov/sotu'>Learn more about the President\u2019s vision to ensure that every working family has the support and opportunities they need to get ahead in the 21st century economy.</a>", 
+                    "data": {
+                        "$area": 2.64, 
+                        "budget": "$108,280", 
+                        "$color": "#005d29"
+                    }, 
+                    "children": [], 
+                    "name": "Food and Nutrition Assistance", 
+                    "id": "child-Food and Nutrition Assistance"
+                }, 
+                {
+                    "zoomdata": "Earned Income and Child Tax Credits<br /><br />The budget proposes a historic investment in quality, affordable child care by tripling the child care tax credit for millions of families with young children, helping states build a supply of quality care that families can access, increasing the duration of Head Start programs, supporting universal preschool, and more.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/22/how-president-will-help-all-working-families-young-kids-afford-child-care'>Watch the President outline his plan to help all working families with young kids afford child care.</a>", 
+                    "data": {
+                        "$area": 2.02, 
+                        "budget": "$82,836", 
+                        "$color": "#057335"
+                    }, 
+                    "children": [], 
+                    "name": "Earned Income and Child Tax Credits", 
+                    "id": "child-Earned Income and Child Tax Credits"
+                }, 
+                {
+                    "zoomdata": "Unemployment Compensation<br /><br />The budget proposes a deficit-neutral suite of Unemployment Insurance reforms that increase the program\u2019s connection to work and expand benefits for those who lose their jobs through no fault of their own. The budget also invests in more employment services that help unemployed workers find a career-path job or the training they need to prepare for one.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/30/chart-week-businesses-are-ready-hire-more-americans-now-any-point-2001'>See how the President is working to create pathways to high-growth, higher-paying jobs.</a>", 
+                    "data": {
+                        "$area": 1.07, 
+                        "budget": "$43,711", 
+                        "$color": "#17c062"
+                    }, 
+                    "children": [], 
+                    "name": "Unemployment Compensation", 
+                    "id": "child-Unemployment Compensation"
+                }, 
+                {
+                    "zoomdata": "Housing Assistance<br /><br />The budget improves coordination of resources to meet unique community needs, including through the Promise Zones initiative, which is creating partnerships between the Federal Government, local communities, and businesses to increase access to quality, affordable housing.<br /><br /><a href='http://obamawhitehouse.archives.gov/the-press-office/2014/01/08/fact-sheet-president-obama-s-promise-zones-initiative'>Read more about the President\u2019s Promise Zone initiative.</a>", 
+                    "data": {
+                        "$area": 1.26, 
+                        "budget": "$51,564", 
+                        "$color": "#0f974b"
+                    }, 
+                    "children": [], 
+                    "name": "Housing Assistance", 
+                    "id": "child-Housing Assistance"
+                }
+            ], 
+            "name": "Income Security", 
+            "id": "parent_Income Security"
+        }, 
+        {
+            "zoomdata": "Education and Job Training<br /><br />The budget supports working families by creating or expanding innovative, evidence-based job training programs in high-demand fields that provide a path to the middle class for hard-working, low-wage Americans. It will also double the number of workers receiving training through the workforce development system, with a focus on training partnerships for skills in burgeoning industries.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/22/upskill-america-presidents-plan-help-hardworking-americans-earn-higher-paying-jobs'>Find out how the President is helping hardworking Americans earn higher-paying jobs.</a>", 
+            "data": {
+                "$area": 2.59, 
+                "budget": "$106,342"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Other Education and Job Training<br /><br />The budget supports working families by creating or expanding innovative, evidence-based job training programs in high-demand fields that provide a path to the middle class for hard-working, low-wage Americans. It will also double the number of workers receiving training through the workforce development system, with a focus on training partnerships for skills in burgeoning industries.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/22/upskill-america-presidents-plan-help-hardworking-americans-earn-higher-paying-jobs'>Find out how the President is helping hardworking Americans earn higher-paying jobs.</a>", 
+                    "data": {
+                        "$area": 1.17, 
+                        "budget": "$47,912", 
+                        "$color": "#470a7c"
+                    }, 
+                    "children": [], 
+                    "name": "Other Education and Job Training", 
+                    "id": "child-Other Education and Job Training"
+                }, 
+                {
+                    "zoomdata": "Special Education<br /><br />The budget increases funding for special education and help students who face academic hurdles to meet rigorous academic standards so that all students can succeed.", 
+                    "data": {
+                        "$area": 0.31, 
+                        "budget": "$12,541", 
+                        "$color": "#8f3dd6"
+                    }, 
+                    "children": [], 
+                    "name": "Special Education", 
+                    "id": "child-Special Education"
+                }, 
+                {
+                    "zoomdata": "Funds for School Districts with Low Income K-12 Students<br /><br />The budget increases funding for the Department of Education\u2019s grant program that focuses on supporting low-income school districts.<br /><br /><a href=https://medium.com/budget-document/reorganizing-government-reforming-the-government-to-win-in-the-global-economy-bf84a1e17c59' target='_blank'>Learn why the President is making an investment in STEM education a national priority.</a>", 
+                    "data": {
+                        "$area": 0.38, 
+                        "budget": "$15,644", 
+                        "$color": "#7327b5"
+                    }, 
+                    "children": [], 
+                    "name": "Funds for School Districts with Low Income K-12 Students", 
+                    "id": "child-Funds for School Districts with Low Income K-12 Students"
+                }, 
+                {
+                    "zoomdata": "Student Financial Aid for College, Including Pell Grants<br /><br />To help ensure students can afford to go to college, the budget makes sure that Pell Grants will keep pace with inflation. To help student borrowers manage existing student loan debt, the budget extends the Pay-As-You-Earn (PAYE) plan, which caps student loan payments at 10% of your income, to all student borrowers. The budget also simplifies and expands education tax benefits for millions of families and students.<br /><br />Finally, the budget also invests in the President\u2019s proposal to provide tuition-free community college for responsible students, providing a gateway to a career or four-year degree for as many as 9 million students across the country.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/08/president-proposes-make-community-college-free-responsible-students-2-years'>Learn more about the President\u2019s plan to make community college free.</a>", 
+                    "data": {
+                        "$area": 0.74, 
+                        "budget": "$30,245", 
+                        "$color": "#5b1597"
+                    }, 
+                    "children": [], 
+                    "name": "Student Financial Aid for College, Including Pell Grants", 
+                    "id": "child-Student Financial Aid for College, Including Pell Grants"
+                }
+            ], 
+            "name": "Education and Job Training", 
+            "id": "parent_Education and Job Training"
+        }, 
+        {
+            "data": {
+                "$area": 4.4, 
+                "budget": "$180,324"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Other Veterans Benefits<br /><br />The budget invests in the five pillars the President outlined to support our nation\u2019s veterans: providing the resources and funding they deserve, ensuring high-quality and timely healthy care, getting veterans their earned benefits quickly and efficiently, ending veteran homelessness, and helping veterans and their families get good jobs, education, and access to affordable housing.<br /><br /><a href='http://obamawhitehouse.archives.gov/veterans' target='_blank'>Learn more about the Administration\u2019s efforts to uphold the nation\u2019s duty to care for those who have risked their lives to protect ours.</a>", 
+                    "data": {
+                        "$area": 0.58, 
+                        "budget": "$23,801", 
+                        "$color": "#e65202"
+                    }, 
+                    "children": [], 
+                    "name": "Other Veterans Benefits", 
+                    "id": "child-Other Veterans Benefits"
+                }, 
+                {
+                    "zoomdata": "Health Care<br /><br />The budget invests in a pillar of the President\u2019s plan to support our nation\u2019s veterans: Ensuring high-quality and timely health care. Under the budget, the VA health system will be able to hire more physicians and staff and improve its physical infrastructure to provide better care. It also establishes a temporary program to help eligible veterans who may have to wait too long or travel to far find care outside the VA system.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2014/08/07/president-obama-signs-bill-give-va-resources-it-needs' target='_blank'>Learn more about the law the President signed to help get veterans the health resources they deserve.</a>", 
+                    "data": {
+                        "$area": 1.63, 
+                        "budget": "$66,710", 
+                        "$color": "#c64804"
+                    }, 
+                    "children": [], 
+                    "name": "Health Care", 
+                    "id": "child-Health Care"
+                }, 
+                {
+                    "zoomdata": "Income and Housing Support<br /><br />A key part of the President's budget invests helping our veterans and their families find good-paying jobs and have access to affordable housing. Under this budget, returning veterans who receive unemployment benefits will have access to the job-training they need, and veterans in need of housing support will be eligible for thousands of new housing choice vouchers, regardless of their discharge status.<br /><br /><a href='http://obamawhitehouse.archives.gov/veterans' target='_blank'>Learn more about the Administration\u2019s efforts to uphold the nation\u2019s duty to care for those who have risked their lives to protect ours.</a>", 
+                    "data": {
+                        "$area": 2.19, 
+                        "budget": "$89,813", 
+                        "$color": "#a83b00"
+                    }, 
+                    "children": [], 
+                    "name": "Income and Housing Support", 
+                    "id": "child-Income and Housing Support"
+                }
+            ], 
+            "name": "Veteran Benefits", 
+            "id": "parent_Veteran Benefits"
+        }, 
+        {
+            "data": {
+                "$area": 1.36, 
+                "budget": "$55,951"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Other International Affairs<br /><br />The U.S. is facing challenges due to an influx of migration from Central America. To promote prosperity, security, and good governance in that region, the budget invests in a long-term strategy that is designed to contribute to the evolution of an economically-integrated Central America that is fully democratic, provides greater economic opportunities to its people, promotes transparency, and ensures the safety of its citizens.  <br /><br/><a href='http://obamawhitehouse.archives.gov/blog/2014/11/21/chart-week-our-border-more-secure-it-has-been-decades'>Take a look at the President\u2019s comprehensive border response.</a>", 
+                    "data": {
+                        "$area": 0.39, 
+                        "budget": "$16,094", 
+                        "$color": "#0b7175"
+                    }, 
+                    "children": [], 
+                    "name": "Other International Affairs", 
+                    "id": "child-Other International Affairs"
+                }, 
+                {
+                    "zoomdata": "Security Assistance<br /><br />From our efforts to degrade and defeat ISIL to countering Russian aggression in Ukraine, the budget provides the necessary resources to our security forces and our international allies to ensure support for U.S. operations and regional security forces.<br /><br/><a href='http://obamawhitehouse.archives.gov/sotu#2691'>Learn more about the President\u2019s vision for America\u2019s leadership in the world.</a>", 
+                    "data": {
+                        "$area": 0.35, 
+                        "budget": "$14,447", 
+                        "$color": "#148589"
+                    }, 
+                    "children": [], 
+                    "name": "Security Assistance", 
+                    "id": "child-Security Assistance"
+                }, 
+                {
+                    "zoomdata": "Development and Humanitarian Assistance<br /><br />The budget provides resources to support the Global Health Security Agenda, a partnership of nations, organizations, and private stakeholders that are dedicated to promoting global health security as an international security priority. It also increases funding to eradicate polio, creates a new Impact Fund for targeted global HIV/AIDS efforts, and increases funding to bolster our preparedness to combat potential outbreaks here at home.<br /><br/><a href='http://obamawhitehouse.archives.gov/ebola-response'>Learn more about America\u2019s leadership efforts to help combat the Ebola outbreak in West Africa.</a>", 
+                    "data": {
+                        "$area": 0.62, 
+                        "budget": "$25,410", 
+                        "$color": "#035457"
+                    }, 
+                    "children": [], 
+                    "name": "Development and Humanitarian Assistance", 
+                    "id": "child-Development and Humanitarian Assistance"
+                }
+            ], 
+            "name": "International Affairs", 
+            "id": "parent_International Affairs"
+        }, 
+        {
+            "data": {
+                "$area": 2.41, 
+                "budget": "$98,742"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Other Transportation and Infrastructure<br /><br />21st century infrastructure is crucial to an advanced, globally competitive economy in the 21st century. The President\u2019s budget invests in a six-year upgrade to our highways, bridges, and transit systems \u2013 half of which will be paid for with a one-time tax on profits that U.S. companies store overseas.<br /><br/><a href='http://obamawhitehouse.archives.gov/rebuild-america'>See why we need to make investing in our infrastructure a national priority.</a>", 
+                    "data": {
+                        "$area": 0.79, 
+                        "budget": "$32,458", 
+                        "$color": "#949494"
+                    }, 
+                    "children": [], 
+                    "name": "Other Transportation and Infrastructure", 
+                    "id": "child-Other Transportation and Infrastructure"
+                }, 
+                {
+                    "zoomdata": "Highways, Mass Transit, and Other Ground Transportation<br /><br />21st century infrastructure is crucial to an advanced, globally competitive economy in the 21st century. The budget modernizes our ports and build stronger bridges, better roads, faster trains, and better broadband, creating jobs for thousands of construction workers and engineers while making it easier to do business.<br /><br/><a href='http://obamawhitehouse.archives.gov/rebuild-america'>See why we need to make investing in our infrastructure a national priority.</a>", 
+                    "data": {
+                        "$area": 1.62, 
+                        "budget": "$66,284", 
+                        "$color": "#616161"
+                    }, 
+                    "children": [], 
+                    "name": "Highways, Mass Transit, and Other Ground Transportation", 
+                    "id": "child-Highways, Mass Transit, and Other Ground Transportation"
+                }
+            ], 
+            "name": "Transportation", 
+            "id": "parent_Transportation"
+        }, 
+        {
+            "data": {
+                "$area": 1.08, 
+                "budget": "$44,311"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Pollution Control and Other<br /><br />The budget makes significant investments to combat climate change in three ways: cutting carbon pollution with higher standards and more clean energy technology in states building climate resilience in communities and ecosystems and leading global efforts to help major and emerging economies reduce carbon pollution and strengthen resilience to extreme weather events.<br /><br/><a href='http://obamawhitehouse.archives.gov/climate-change'>Learn more about the President\u2019s Climate Action Plan.</a>", 
+                    "data": {
+                        "$area": 0.52, 
+                        "budget": "$21,405", 
+                        "$color": "#a46a0a"
+                    }, 
+                    "children": [], 
+                    "name": "Pollution Control and Other", 
+                    "id": "child-Pollution Control and Other"
+                }, 
+                {
+                    "zoomdata": "Water and Land Management<br /><br />The budget makes crucial investments in conservation, sustainable management, and working lands which will help ensure that dependent communities have sustainable, forest-based economic development opportunities. These investments will help protect the resources that are crucial to our economy and maintain the air we breathe and water we drink.<br /><br/><a href='http://obamawhitehouse.archives.gov/blog/2015/01/25/president-obama-calls-congress-protect-arctic-refuge-wilderness'>Learn more about the President\u2019s latest efforts to conserve America\u2019s most precious natural resources.</a>", 
+                    "data": {
+                        "$area": 0.56, 
+                        "budget": "$22,906", 
+                        "$color": "#855300"
+                    }, 
+                    "children": [], 
+                    "name": "Water and Land Management", 
+                    "id": "child-Water and Land Management"
+                }
+            ], 
+            "name": "Natural Resources and Environment", 
+            "id": "parent_Natural Resources and Environment"
+        }, 
+        {
+            "data": {
+                "$area": 0.75, 
+                "budget": "$30,968"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Other Science Research and Laboratories<br /><br />Compared with 2016 sequestration levels, the President's budget would increase funding for research and development by nearly 6 percent over the course of 2015, making crucial investments in such programs as the Brain Initiative \u2013 which is developing new tools and technologies to offer new insight into diseases like Alzheimer's \u2013 and Precision Medicine, which can improve health outcomes and better treat diseases.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/29/precision-medicine-already-working-cure-americans-these-are-their-stories'>See how Precision Medicine has transformed the life of 6-year-old Emily Whitehead, and other Americans.</a>", 
+                    "data": {
+                        "$area": 0.31, 
+                        "budget": "$12,824", 
+                        "$color": "#0a3868"
+                    }, 
+                    "children": [], 
+                    "name": "Other Science Research and Laboratories", 
+                    "id": "child-Other Science Research and Laboratories"
+                }, 
+                {
+                    "zoomdata": "NASA<br /><br />The Budget provides $18.5 billion for investments to ensure continued U.S. leadership in space and help create new industries and capabilities.  The budget supports research and development to advance space capabilities and strengthens NASA\u2019s ability to answer important scientific questions about Earth.  The budget also prioritizes technology development and innovative commercial programs to reduce costs, enable new space commerce and increase U.S. capabilities.", 
+                    "data": {
+                        "$area": 0.44, 
+                        "budget": "$18,144", 
+                        "$color": "#002245"
+                    }, 
+                    "children": [], 
+                    "name": "NASA", 
+                    "id": "child-NASA"
+                }
+            ], 
+            "name": "Science, Space, and Technology Programs", 
+            "id": "parent_Science, Space, and Technology Programs"
+        }, 
+        {
+            "data": {
+                "$area": 23.02, 
+                "budget": "$944,338"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Social Security<br /><br />Social Security is indispensable to workers, retirees, survivors, and people with disabilities and the Administration is committed to ensuring that the program is solvent and viable for the American people, now and in the future. The budget helps support solvency for workers with disabilities and America\u2019s seniors by making key reforms that will maintain the integrity of all Social Security trust funds.<br /><br /><a href='http://obamawhitehouse.archives.gov/sotu'>Learn more about the President\u2019s plan to build a 21st century economy based on what works: middle-class economics.</a>", 
+                    "data": {
+                        "$area": 23.02, 
+                        "budget": "$944,338", 
+                        "$color": "#01308e"
+                    }, 
+                    "children": [], 
+                    "name": "Social Security", 
+                    "id": "child-Social Security"
+                }
+            ], 
+            "name": "Social Security", 
+            "id": "parent_Social Security"
+        }, 
+        {
+            "data": {
+                "$area": 0.94, 
+                "budget": "$38,645"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Immigration and Other Federal Law Enforcement<br /><br />The Fiscal Year 2016 budget once again reflects the President's support for commonsense, comprehensive immigration reform. This reform \u2013 along the lines of the bipartisan bill passed in the Senate \u2013 would close about 8 percent of the Social Security Trust Fund loophole. Immigration reform also strengthens our economy by boosting GDP growth, reducing the deficit, raising the average wage for both U.S.-born and immigrant workers, and increasing labor force size and productivity.<br /><br /><a href='http://obamawhitehouse.archives.gov/issues/immigration/immigration-action'>Learn more about the President\u2019s Executive Actions on immigration and the need for a better system here.</a>", 
+                    "data": {
+                        "$area": 0.94, 
+                        "budget": "$38,645", 
+                        "$color": "#598706"
+                    }, 
+                    "children": [], 
+                    "name": "Immigration and Other Federal Law Enforcement", 
+                    "id": "child-Immigration and Other Federal Law Enforcement"
+                }
+            ], 
+            "name": "Immigration and Other Federal Law Enforcement", 
+            "id": "parent_Immigration and Other Federal Law Enforcement"
+        }, 
+        {
+            "data": {
+                "$area": 0.38, 
+                "budget": "$15,435"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Response to Natural Disasters<br /><br />The Budget provides $200 million for FEMA's Pre-disaster Mitigation Grant Program, an increase of $175 million over current funding levels. This funding will predominately support mitigation planning, facilities hardening, and nonstructural risk reduction measures, such as buyouts and elevation of structures. Studies on mitigation activities conclude that Americans save $3-$4 for every dollar invested in pre-disaster mitigation.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/30/new-flood-standard-federal-investments-will-help-communities-weather-climate-change-'></a>", 
+                    "data": {
+                        "$area": 0.38, 
+                        "budget": "$15,435", 
+                        "$color": "#0261a3"
+                    }, 
+                    "children": [], 
+                    "name": "Response to Natural Disasters", 
+                    "id": "child-Response to Natural Disasters"
+                }
+            ], 
+            "name": "Response to Natural Disasters", 
+            "id": "parent_Response to Natural Disasters"
+        }, 
+        {
+            "data": {
+                "$area": 0.85, 
+                "budget": "$35,075"
+            }, 
+            "children": [
+                {
+                    "data": {
+                        "$area": 0.85, 
+                        "budget": "$35,075", 
+                        "$color": "#f69320"
+                    }, 
+                    "children": [], 
+                    "name": "Other Government Programs", 
+                    "id": "child-Other Government Programs"
+                }
+            ], 
+            "name": "Other Government Programs", 
+            "id": "parent_Other Government Programs"
+        }, 
+        {
+            "data": {
+                "$area": 6.9, 
+                "budget": "$283,049"
+            }, 
+            "children": [
+                {
+                    "zoomdata": "Net Interest<br /><br />The budget supports the President\u2019s ambitious vision for growth and opportunity, and does so while meeting a key test of fiscal stability: stabilizing debt as a share of the economy and putting it on a declining path. It achieves these goals by replacing mindless austerity with smart reforms, paying for all new investments, and obtaining $1.8 trillion in deficit reduction primarily from health, tax, and immigration reforms.<br /><br /><a href='http://obamawhitehouse.archives.gov/blog/2015/01/31/weekly-address-path-towards-thriving-middle-class'>Listen to the President describe how he\u2019ll replace devastating cuts with smart investments.</a>", 
+                    "data": {
+                        "$area": 6.9, 
+                        "budget": "$283,049", 
+                        "$color": "#3f3f3f"
+                    }, 
+                    "children": [], 
+                    "name": "Net Interest", 
+                    "id": "child-Net Interest"
+                }
+            ], 
+            "name": "Net Interest", 
+            "id": "parent_Net Interest"
+        }
+    ], 
+    "name": "2016 outlays from the 2016 Budget, in millions of dollars", 
+    "id": "root"
+}
