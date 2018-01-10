@@ -6,16 +6,16 @@
 
 3. Extract the data from the original viz.
 
-```
-pip2 install PyExecJS
-./extract.py
-```
+    ```
+    pip2 install PyExecJS
+    ./extract.py
+    ```
 
 4. Look at the original data format.
 
-```
-cat input.json
-```
+    ```
+    cat input.json
+    ```
 
 5. Look at the output data format: https://bl.ocks.org/mbostock/4063269#flare.csv
 
@@ -28,5 +28,5 @@ cat input.json
     ```
 
 Sources:
-	- Data: https://obamawhitehouse.archives.gov/interactive-budget
-	- Visualizaton: https://bl.ocks.org/mbostock/4063269
+    - Data: https://obamawhitehouse.archives.gov/interactive-budget
+    - Visualizaton: https://bl.ocks.org/mbostock/4063269
