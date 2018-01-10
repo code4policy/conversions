@@ -15,13 +15,7 @@
 
 3. Create a script, `convert.py` that will transform `input1.csv` and `input2.json` into `output.json`.
 
-4. Run the interactive to see that the conversion worked properly.
-
-    ```
-    python2 -m SimpleHTTPServer
-    ```
-
-5. Navigate to `http://localhost:8000/` in your browser and see the interactive work.
+4. Navigate to `http://localhost:8000/example6` in your browser and see the interactive work.
 
 Sources:
 - Data:

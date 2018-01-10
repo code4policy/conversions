@@ -14,11 +14,7 @@
 
 3. Create a script, `convert.py` that will transform `input.csv` into `output.csv`.
 
-4. Run the interactive to see that the conversion worked properly.
-
-    ```
-    python2 -m SimpleHTTPServer
-    ```
+4. Navigate to `http://localhost:8000/example3` in your browser and see the interactive work.
 
 5. **Try It** Change `convert.py` to filter down to a single representative and look at the resulting chart.
 

@@ -16,13 +16,7 @@
 
 3. Create a script, `convert.py` that will transform `input.csv` into `output.csv`.
 
-4. Run the interactive to see that the conversion worked properly.
-
-    ```
-    python2 -m SimpleHTTPServer
-    ```
-
-5. Navigate to `http://localhost:8000/` in your browser and see the interactive work.
+4. Navigate to `http://localhost:8000/example7` in your browser and see the interactive work.
 
 Sources
 - Data: [FiveThirtyEight Trump Approval Ratings](https://projects.fivethirtyeight.com/trump-approval-ratings/)
