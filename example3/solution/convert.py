@@ -21,7 +21,6 @@ cost_by_category = defaultdict(list)
 for row in filtered_rows:
     category = row['CATEGORY']
     amount = float(row['AMOUNT'])
-    # cost_by_category[category] is a list
     cost_by_category[category].append(amount)
 
 # sum each group
