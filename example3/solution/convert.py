@@ -17,11 +17,12 @@ for row in all_rows:
 
 # group by category
 
-grouped_rows = defaultdict(list)
+cost_by_category = defaultdict(list)
 for row in filtered_rows:
     category = row['CATEGORY']
     amount = float(row['AMOUNT'])
-    grouped_rows[category].append(amount)
+    # cost_by_category[category] is a list
+    cost_by_category[category].append(amount)
 
 # sum each group
 
