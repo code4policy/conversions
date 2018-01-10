@@ -1,4 +1,4 @@
-title,subtitle,range_min,range_mid,range_max,mesaure_min,measure_max,markers
+title,subtitle,range_min,range_mid,range_max,measure_min,measure_max,markers
 Revenue,"US$, in thousands",150,225,300,220,270,250
 Profit,%,20,25,30,21,23,26
 Order Size,"US$ average",350,500,600,100,320,550
