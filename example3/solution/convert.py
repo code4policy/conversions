@@ -10,9 +10,8 @@ with open('input.csv') as f:
 
 filtered_rows = []
 for row in all_rows:
-    if not row['BIOGUIDE_ID']:
-        continue
-    filtered_rows.append(row)
+    if row['BIOGUIDE_ID']:
+        filtered_rows.append(row)
 
 # group by category
 
