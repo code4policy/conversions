@@ -4,3 +4,15 @@
 2. clone it to `~/Development`
 3. turn on http server `python2 -m SimpleHTTPServer 8000`
 4. go through each example's README
+
+Example Order
+
+- example7
+- example8
+- example9
+- example1
+- example2
+- example3
+- example4
+- example5
+- example6
