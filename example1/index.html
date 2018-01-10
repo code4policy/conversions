@@ -41,7 +41,7 @@ var chart = d3.bullet()
     .width(width)
     .height(height);
 
-d3.json("output.json", function(error, data) {
+d3.json("dummy.json", function(error, data) {
   if (error) throw error;
 
   var svg = d3.select("body").selectAll("svg")

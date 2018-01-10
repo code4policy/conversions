@@ -1,4 +1,4 @@
-# example1
+# example1: bullet chart
 
 1. Look at the original CSV data. We will need to convert this data to JSON.
 
@@ -9,7 +9,7 @@
 2. Look at the target JSON format.
 
     ```
-    cat output.json | jq
+    cat dummy.json | jq
     ```
 
 3. Look at and then run `convert.py` to convert `input.csv` into `output.json`.
