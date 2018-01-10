@@ -23,4 +23,4 @@
 5. Navigate to `http://localhost:8000/` in your browser and see the interactive work.
 
 Sources:
-- Visualization: https://bl.ocks.org/mbostock/4061961
+- Visualization: [Bullet Chart](https://bl.ocks.org/mbostock/4061961)
