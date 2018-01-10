@@ -5,7 +5,7 @@ import json
 import requests
 import execjs
 
-response = requests.get("https://obamawhitehouse.archives.gov//interactive-budget")
+response = requests.get("https://obamawhitehouse.archives.gov/interactive-budget")
 m = re.search(r"//init data(.*)//init TreeMap", response.text, re.S)
 js = m.groups()[0].replace('var json = ', '').replace(';', '')
 data = execjs.eval(js)
