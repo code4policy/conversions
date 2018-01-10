@@ -2,7 +2,6 @@
 
 import csv
 import json
-from pprint import pprint
 
 # load the file
 with open('data.csv') as f:
@@ -28,9 +27,6 @@ for row in rows:
     }
     # add to the empty list
     json_data.append(item)
-
-# print it to the terminal
-pprint(json_data)
 
 # output to json
 with open('output.json', 'w') as jsonfile:
