@@ -17,16 +17,16 @@ for row in all_rows:
 
 # group by category
 
-cost_by_category = defaultdict(list)
+costs_by_category = defaultdict(list)
 for row in filtered_rows:
     category = row['CATEGORY']
     amount = float(row['AMOUNT'])
-    cost_by_category[category].append(amount)
+    costs_by_category[category].append(amount)
 
 # sum each group
 
 outputs = []
-for category, amounts in grouped_rows.items():
+for category, amounts in costs_by_category.items():
     outputs.append({
         "id": "flare.other." + category,
         "value": sum(amounts)
