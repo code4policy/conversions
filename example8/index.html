@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="multiline.css">
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="chart-wrapper" id="chart-line1"></div>
+
+<script type="text/javascript">
+    var formatDate = d3.time.format("%Y-%m-%d");
+
+    d3.csv('dummy.csv', function(error, data) {
+
+        data.forEach(function (d) {
+            d.year = formatDate.parse(d.year);
+            d.variableA = +d.variableA;
+            d.variableB = +d.variableB;
+            d.variableC = +d.variableC;
+            d.variableD = +d.variableD;
+            d.variableE = +d.variableE;
+            d.variableF = +d.variableF;
+        });
+
+        var chart = makeLineChart(data, 'year', {
+            'Variable A': {column: 'variableA'},
+            'Variable B': {column: 'variableB'},
+            'Variable C': {column: 'variableC'},
+            'Variable D': {column: 'variableD'},
+            'Variable E': {column: 'variableE'},
+            'Variable F': {column: 'variableF'}
+        }, {xAxis: 'Date', yAxis: 'Amount'});
+        chart.bind("#chart-line1");
+        chart.render();
+
+    });
+</script>
+<script src="multiline.js" charset="utf-8"></script>
+</body>
+</html>
