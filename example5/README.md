@@ -1,4 +1,4 @@
-# example5: horizontal bar chart
+# example5: horizontal bar
 
 1. Look at the original data format.
 
