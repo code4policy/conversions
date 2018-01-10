@@ -28,5 +28,5 @@
     ```
 
 Sources:
-    - Data: https://obamawhitehouse.archives.gov/interactive-budget
-    - Visualizaton: https://bl.ocks.org/mbostock/4063269
+- Data: https://obamawhitehouse.archives.gov/interactive-budget
+- Visualizaton: https://bl.ocks.org/mbostock/4063269

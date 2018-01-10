@@ -26,4 +26,5 @@
 
 5. Navigate to `http://localhost:8000/` in your browser and see the interactive work.
 
-Original Source: https://bl.ocks.org/mbostock/4061961
+Sources:
+- Visualization: https://bl.ocks.org/mbostock/4061961
