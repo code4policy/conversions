@@ -1,4 +1,4 @@
-# example9: line char
+# example9: line chart
 
 1. Look at the original data format.
 
