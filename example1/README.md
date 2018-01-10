@@ -1,22 +1,18 @@
 # example1: bullet chart
 
-1. Look at the original CSV data. We will need to convert this data to JSON.
+1. Look at the original data format.
 
     ```
     cat input.csv
     ```
 
-2. Look at the target JSON format.
+2. Look at the output data format.
 
     ```
     cat dummy.json | jq
     ```
 
-3. Look at and then run `convert.py` to convert `input.csv` into `output.json`.
-
-    ```
-    ./convert.py
-    ```
+3. Create a script, `convert.py` that will transform `input.csv` into `output.json`.
 
 4. Run the interactive to see that the conversion worked properly.
 
