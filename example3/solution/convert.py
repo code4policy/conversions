@@ -6,14 +6,14 @@ with open('input.csv') as f:
     reader = csv.DictReader(f)
     all_rows = list(reader)
 
-# filter rows
+# remove rows without BIOGUIDE_ID
 
 filtered_rows = []
 for row in all_rows:
     if row['BIOGUIDE_ID']:
         filtered_rows.append(row)
 
-# group by category
+# sum cost by category
 
 costs_by_category = {}
 for row in filtered_rows:
@@ -31,5 +31,7 @@ with open('output.csv', 'w') as f:
     writer.writerow(['id', 'value'])
 
     for category, total_cost in costs_by_category.items():
-        new_row = ["flare.other." + category, total_cost]
+        id = "flare.other." + category
+        value = total_cost
+        new_row = [id, value]
         writer.writerow(new_row)
