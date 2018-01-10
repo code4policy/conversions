@@ -20,23 +20,19 @@ for row in all_rows:
 grouped_rows = defaultdict(list)
 for row in filtered_rows:
     category = row['CATEGORY']
-    grouped_rows[category].append(row)
+    amount = float(row['AMOUNT'])
+    grouped_rows[category].append(amount)
 
 # sum each group
 
-category_sum = []
-for category, rows in grouped_rows.items():
-
-    row_sum = 0
-    for row in rows:
-        row_sum += float(row['AMOUNT'])
-
-    category_sum.append({
+outputs = []
+for category, amounts in grouped_rows.items():
+    outputs.append({
         "id": "flare.other." + category,
-        "value": row_sum
+        "value": sum(amounts)
         })
 
 with open('output.csv', 'w') as f:
     writer = csv.DictWriter(f, fieldnames=['id', 'value'])
     writer.writeheader()
-    writer.writerows(category_sum)
+    writer.writerows(outputs)
