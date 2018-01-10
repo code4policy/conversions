@@ -1,7 +1,5 @@
 # example3: bubble chart 2
 
-**Dependency**: Run `pip2 install pandas`.
-
 1. Look at the original data format.
 
     ```
@@ -21,6 +19,8 @@
     ```
     python2 -m SimpleHTTPServer
     ```
+
+5. **Try It** Change `convert.py` to filter down to a single representative and look at the resulting chart.
 
 Sources:
 - Data: [House Office Expenditure](https://projects.propublica.org/represent/expenditures)
