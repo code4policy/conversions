@@ -1,27 +1,42 @@
 #!/usr/bin/env python2
 
-import pandas as pd
+import csv
+from collections import defaultdict
 
-# read input.csv into a pandas dataframe (df for short)
-df = pd.read_csv('input.csv')
+with open('input.csv') as f:
+    reader = csv.DictReader(f)
+    all_rows = list(reader)
 
-# filter to just reprentatives (i.e. bioguide_id is not null)
-df = df[
-    (df.BIOGUIDE_ID.notnull())
-]
+# filter rows
 
-# group by purpose, sum amount
-df = df.groupby(by='CATEGORY', as_index=False)['AMOUNT'].sum()
+filtered_rows = []
+for row in all_rows:
+    if not row['BIOGUIDE_ID']:
+        continue
+    filtered_rows.append(row)
 
-# remove spaces in purpose and replace with _
-df['CATEGORY'] = df['CATEGORY'].str.replace(' ', '_')
+# group by category
 
-# prepend 'flare.other' to each row
-df['CATEGORY'] = 'flare.other.' + df['CATEGORY']
+grouped_rows = defaultdict(list)
+for row in filtered_rows:
+    category = row['CATEGORY']
+    grouped_rows[category].append(row)
 
-# rename columns to id and value
-df.columns = ['id', 'value']
+# sum each group
 
-# output csv
-df.to_csv('output.csv', index=False)
+category_sum = []
+for category, rows in grouped_rows.items():
 
+    row_sum = 0
+    for row in rows:
+        row_sum += float(row['AMOUNT'])
+
+    category_sum.append({
+        "id": "flare.other." + category,
+        "value": row_sum
+        })
+
+with open('output.csv', 'w') as f:
+    writer = csv.DictWriter(f, fieldnames=['id', 'value'])
+    writer.writeheader()
+    writer.writerows(category_sum)
