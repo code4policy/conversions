@@ -1,32 +1,40 @@
 #!/usr/bin/env python2
 
-import pandas as pd
+import csv
 
-# read input.csv into a pandas dataframe (df for short)
-df = pd.read_csv('input.csv')
+with open('input.csv') as f:
+    reader = csv.DictReader(f)
+    all_rows = list(reader)
 
-# filter to just reprentatives (i.e. bioguide_id is not null)
-df = df[
-    (df.BIOGUIDE_ID.notnull())
-]
+# remove rows without BIOGUIDE_ID
 
-# group by purpose, sum amount
-df = df.groupby(by='CATEGORY', as_index=False)['AMOUNT'].sum()
+filtered_rows = []
+for row in all_rows:
+    if row['BIOGUIDE_ID']:
+        filtered_rows.append(row)
 
-# remove spaces in purpose and replace with _
-df['CATEGORY'] = df['CATEGORY'].str.replace(' ', '_')
+# sum cost by category
 
-# prepend 'root/' to each row and append '.txt'
-df['CATEGORY'] = 'root/' + df['CATEGORY'] + '.txt'
+costs_by_category = {}
+for row in filtered_rows:
+    category = row['CATEGORY']
+    amount = float(row['AMOUNT'])
+    if category in costs_by_category:
+        costs_by_category[category] += amount
+    else:
+        costs_by_category[category] = amount
 
-# rename columns to id and value
-df.columns = ['path', 'size']
+# write output
 
-# create a blank row
-blank_row = pd.DataFrame({"path": ["root"], "size": [None]})
+with open('output.csv', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerow(['path', 'size'])
 
-# prepend the blank row to the top of the df
-df = pd.concat([blank_row, df])
+    # write empty row for root
+    writer.writerow(['root', ''])
 
-# output csv
-df.to_csv('output.csv', index=False)
+    for category, total_cost in costs_by_category.items():
+        path = "root/" + category + ".txt"
+        size = total_cost
+        new_row = [path, size]
+        writer.writerow(new_row)
