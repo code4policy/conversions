@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # read input.txt as a text file and skip the first few lines until it reaches the actual data
 
