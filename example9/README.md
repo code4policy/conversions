@@ -20,4 +20,4 @@ Sources:
 - Data: USA Spending (https://www.usaspending.gov/Pages/Default.aspx) 
 	- Direct: https://fred.stlouisfed.org/data/FDEFX.txt
 - Visualization [X-Value Mouseover](https://bl.ocks.org/mbostock/3902569)
- - Example: http://dhrumilmehta.com/example-frontend-2/page2.html 
+ - Example: [http://dhrumilmehta.com/example-frontend-2/page2.html](http://dhrumilmehta.com/example-frontend-2/page2.html) 
