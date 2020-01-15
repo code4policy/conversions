@@ -28,5 +28,5 @@ with open('output.csv', 'w') as f:
         # 4b. convert to output date format
         new_date = date.strftime(OUTPUT_DATE_FORMAT)
 
-        # # 5. write a new row of data with the transformed date and value for "approve" 
+        # 5. write a new row of data with the transformed date and value for "approve" 
         writer.writerow([new_date, row['approve']])
