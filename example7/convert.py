@@ -9,7 +9,7 @@ import datetime
 
 # parse datetime of enddate using datetime.datetime.strptime
 
-# convert the datetime to the desired output date format by looking at dummy.csv and strftime.org
+# convert the datetime to the desired output date format by looking at dummy.csv and https://strftime.org/
 # the function for this is mydateobject.strftime("insert format here")
 
 # write output.csv
