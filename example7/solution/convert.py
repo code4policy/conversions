@@ -17,7 +17,7 @@ with open('output.csv', 'w') as f:
     writer = csv.writer(f)
 
     # 2b. write a row with two headers: "date" and "approve"
-    writer.writerow(['date', 'close'])
+    writer.writerow(['date', 'approve'])
 
     # 3. Loop through each row of `polls`
     for row in polls:
