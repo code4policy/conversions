@@ -12,8 +12,6 @@
     
 2. Navigate to `http://localhost:8000/`
 
-3. Split out the HTML, CSS, and JS into separate files and make sure the visualization still works.
-
 ### Step 2: Change out the data
 
 1. Look at the original data format.
@@ -39,6 +37,8 @@
 	You will need to modify the javascript to read the new column `approve` instead of looking for a column named `close`
 
 2. Navigate to `http://localhost:8000/` in your browser and see the interactive work.
+
+3. Split out the HTML, CSS, and JS into separate files and make sure the visualization still works.
 
 Sources
 - Data: [FiveThirtyEight Trump Approval Ratings](https://projects.fivethirtyeight.com/trump-approval-ratings/)
