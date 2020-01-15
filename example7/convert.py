@@ -16,6 +16,6 @@ import datetime
     #       and to write the date you will need to use something like 
     #       new_date = date.strftime("insert output format here")
     # 
-    #       dateformats can be found at https://strftime.org/
+    #       date formats can be found at https://strftime.org/
     
     # 5. write a new row of data with the transformed date and value for "approve" 
