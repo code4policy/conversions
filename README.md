@@ -1,6 +1,6 @@
 # conversions
 
-(https://code4policy.github.io/conversions/)[https://code4policy.github.io/conversions/]
+https://code4policy.github.io/conversions/
 
 1. fork the repo
 2. clone it to `~/Development`
@@ -9,7 +9,7 @@
 
 Example Order
 
-- [example7](./example7/index.html)
+- [example7](https://github.com/code4policy/example7)
 - [example8](./example8/index.html)
 - [example9](./example9/index.html)
 - [example1](./example1/index.html)
