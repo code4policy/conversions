@@ -29,4 +29,4 @@ with open('output.csv', 'w') as f:
         new_date = date.strftime(OUTPUT_DATE_FORMAT)
 
         # # 5. write a new row of data with the transformed date and value for "approve" 
-        writer.writerow([output_date, row['approve']])
+        writer.writerow([new_date, row['approve']])
