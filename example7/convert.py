@@ -3,13 +3,20 @@
 import csv
 import datetime
 
-# load input.csv
+# 1. load input.csv into a variable `rows`
 
-# filter down to the two columns, enddate and approve
+# 2. open output.csv and create a `csv.writer`
 
-# parse datetime of enddate using datetime.datetime.strptime
+# 3. write csv header with columns: "date" and "close"
 
-# convert the datetime to the desired output date format by looking at dummy.csv and https://strftime.org/
-# the function for this is mydateobject.strftime("insert format here")
+# (use https://strftime.org/ to create the input/output date formats for the next two steps)
 
-# write output.csv
+# for each row
+
+    # 4. parse raw `enddate`: you can parse the `enddate` column using the datetime.datetime.strptime function
+    # hint: datetime.datetime.strptime(myrawstring, "insert input format here")
+
+    # 5. convert the `enddate` datetime to the desired output date format by looking at dummy.csv
+    # hint: mydateobject.strftime("insert output format here")
+
+    # 6. write the transformed date and "approve" value to the csv
