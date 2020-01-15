@@ -5,17 +5,17 @@ import datetime
 
 # 1. load input.csv into a variable called `polls`
 
-# 2. write a new file called output.csv and write a row with two headers: "date" and "close"
+# 2. write a new file called output.csv and write a row with two headers: "date" and "approve"
 
-# Loop through each row of `polls` and within that loop
+# 3. Loop through each row of `polls` 
 
-    # 3. convert the fromat of `enddate` from "1/22/2017" to "22-Jan-17"
+    # 4. and within that loop... convert the fromat of `enddate` from "1/22/2017" to "22-Jan-17"
     # hint: to read the date you will need to use
-    #       datetime.datetime.strptime(myrawstring, "insert input format here")
+    #       date = datetime.datetime.strptime(myrawstring, "insert input format here")
     #
-    #       and to write th date you will need to use
-    #       mydateobject.strftime("insert output format here")
+    #       and to write the date you will need to use something like 
+    #       new_date = date.strftime("insert output format here")
     # 
     #       dateformats can be found at https://strftime.org/
     
-    # 4. write a new row of data with the transformed date and value for "approve" 
+    # 5. write a new row of data with the transformed date and value for "approve" 
