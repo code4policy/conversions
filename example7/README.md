@@ -2,7 +2,7 @@
 
 **Note**: This example may be possible without Python using just Excel or Sublime Text.
 
-### Run the example visuzalization
+### Step 1: Run the example visuzalization
 
 1. Run a simple python server in this folder
 
@@ -14,7 +14,7 @@
 
 3. Split out the HTML, CSS, and JS into separate files and make sure the visualization still works.
 
-### Change out the data
+### Step 2: Change out the data
 
 1. Look at the original data format.
 
@@ -30,7 +30,7 @@
 
 3. Create a script, `convert.py` that will transform `input.csv` into `output.csv`. The output should be in the same format as the dummy data. (check the `solution/` folder if you get stuck)
 
-### Change the visualization to read the new data
+### Step 3: Change the visualization to read the new data
 
 1. Update the visualization to read the new column headers. For example
 	- currently `dummy.csv` has the columns `date` and `close`
