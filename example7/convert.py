@@ -3,20 +3,19 @@
 import csv
 import datetime
 
-# 1. load input.csv into a variable `rows`
+# 1. load input.csv into a variable called `polls`
 
-# 2. open output.csv and create a `csv.writer`
+# 2. write a new file called output.csv and write a row with two headers: "date" and "close"
 
-# 3. write csv header with columns: "date" and "close"
+# Loop through each row of `polls` and within that loop
 
-# (use https://strftime.org/ to create the input/output date formats for the next two steps)
-
-# for each row
-
-    # 4. parse raw `enddate`: you can parse the `enddate` column using the datetime.datetime.strptime function
-    # hint: datetime.datetime.strptime(myrawstring, "insert input format here")
-
-    # 5. convert the `enddate` datetime to the desired output date format by looking at dummy.csv
-    # hint: mydateobject.strftime("insert output format here")
-
-    # 6. write the transformed date and "approve" value to the csv
+    # 3. convert the fromat of `enddate` from "1/22/2017" to "22-Jan-17"
+    # hint: to read the date you will need to use
+    #       datetime.datetime.strptime(myrawstring, "insert input format here")
+    #
+    #       and to write th date you will need to use
+    #       mydateobject.strftime("insert output format here")
+    # 
+    #       dateformats can be found at https://strftime.org/
+    
+    # 4. write a new row of data with the transformed date and value for "approve" 
