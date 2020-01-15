@@ -9,7 +9,7 @@ import datetime
 
 # 3. Loop through each row of `polls` 
 
-    # 4. and within that loop... convert the fromat of `enddate` from "1/22/2017" to "22-Jan-17"
+    # 4. and within that loop... convert the format of `enddate` from "1/22/2017" to "22-Jan-17"
     # hint: to read the date you will need to use
     #       date = datetime.datetime.strptime(myrawstring, "insert input format here")
     #
