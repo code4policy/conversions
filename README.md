@@ -18,4 +18,4 @@ Example Order
 - [example5](./example5/index.html) - Bar chart
 - [example6](./example6/index.html) - Multi-series Bar Chart
 
-A more detailed explanation of example 7 can be found [here](https://github.com/code4policy/example7).
+A more detailed explanation of how to complete example 7 can be found [here](https://github.com/code4policy/example7).
