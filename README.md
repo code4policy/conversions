@@ -2,10 +2,9 @@
 
 https://code4policy.github.io/conversions/
 
-1. fork the repo
-2. clone it to `~/Development`
-3. turn on http server `python3 -m http.server 8000`
-4. go through each example's README
+1. clone this repository into `~/Development`
+2. turn on http server `python3 -m http.server 8000`
+2. go through each example's README
 
 Example Order
 
