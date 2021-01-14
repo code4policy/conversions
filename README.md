@@ -2,7 +2,7 @@
 
 https://code4policy.github.io/conversions/
 
-1. clone this repository into `~/Development`
+1. clone this repository into `~/Development` and `cd` into it
 2. turn on http server `python3 -m http.server 8000`
 3. go through each example's README, **select one** to complete (you may do more for practice, but only one is required)
 
