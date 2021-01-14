@@ -8,12 +8,12 @@ https://code4policy.github.io/conversions/
 
 Example Order
 
-- [example7](./example7/index.html)
-- [example8](./example8/index.html)
-- [example9](./example9/index.html)
-- [example1](./example1/index.html)
-- [example2](./example2/index.html)
-- [example3](./example3/index.html)
-- [example4](./example4/index.html)
-- [example5](./example5/index.html)
-- [example6](./example6/index.html)
+- [example7](./example7/index.html) - Scatter Plot
+- [example8](./example8/index.html) - Multi-Series Line Chart
+- [example9](./example9/index.html) - Line  Chart
+- [example1](./example1/index.html) - Interactive Bullet Chart
+- [example2](./example2/index.html) - Bubble Chart
+- [example3](./example3/index.html) - Bubble Chart
+- [example4](./example4/index.html) - Treemap
+- [example5](./example5/index.html) - Bar chart
+- [example6](./example6/index.html) - Multi-series Bar Chart
