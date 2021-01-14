@@ -20,3 +20,8 @@ Example Order
 - [example6](./example6/index.html) - Multi-series Bar Chart
 
 A more detailed explanation of how to complete example 7 can be found [here](https://github.com/code4policy/example7).
+
+**Bonus**
+
+1. Split out HTML, CSS and JavaScript into 3 separate files
+2. Make one modification (any modification) to the D3 graphic - like changing colors for example.
