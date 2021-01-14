@@ -24,4 +24,4 @@ A more detailed explanation of how to complete example 7 can be found [here](htt
 **Bonus**
 
 1. Split out HTML, CSS and JavaScript into 3 separate files
-2. Make one modification (any modification) to the D3 graphic - like changing colors for example.
+2. Make one modification (any modification) to the D3 graphic - like changing the colors for example.
