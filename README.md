@@ -10,7 +10,7 @@ https://code4policy.github.io/conversions/
 
 Separate HTML, CSS and JavaScript
 
-1. split out HTML, CSS and JavaScript into three separate files
+1. split out HTML, CSS and JavaScript into three separate files and make sure the javascript and css are linked in the HTML
 2. make sure the visualiation still works with the dummy data on your `localhost:8000`
 2. commit and push to GitHub
 
