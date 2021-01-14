@@ -8,7 +8,7 @@ https://code4policy.github.io/conversions/
 
 Example Order
 
-- [example7](https://github.com/code4policy/example7)
+- [example7](./example7/index.html)
 - [example8](./example8/index.html)
 - [example9](./example9/index.html)
 - [example1](./example1/index.html)
