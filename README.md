@@ -4,8 +4,17 @@ https://code4policy.github.io/conversions/
 
 1. clone this repository into `~/Development` and `cd` into it
 2. turn on http server `python3 -m http.server 8000`
-3. go through each example's README, **select one** to complete (you may do more for practice, but only one is required)
-4. commit and push to GitHub
+3. **Select one** of the examples to complete (you may do more for practice, but only one is required)
+
+### Tasks
+
+1. split out HTML, CSS and JavaScript into three separate files
+2. commit and push to GitHub
+
+3. Follow the instructions in the example's README to convert an external data set into the format that this visualization is expecting. This will usually involve editing `convert.py`.
+4. Commit and push to GitHub
+
+
 
 Example Order
 
