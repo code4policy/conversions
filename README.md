@@ -2,7 +2,8 @@
 
 https://code4policy.github.io/conversions/
 
-1. clone this repository into `~/Development` and `cd` into it
+0. fork this repository (click on the `Fork` button in the upper-right corner).
+1. clone your fork into `~/Development` and `cd` into it
 2. turn on http server `python3 -m http.server 8000`
 3. go through each example's README, **select one** to complete (you may do more for practice, but only one is required)
 4. commit and push to GitHub
